@@ -1,0 +1,262 @@
+@font-face {
+    font-family: google;
+    src: url(Fonts/product-sans/Product\ Sans\ Regular.ttf);
+}
+
+@font-face {
+    font-family: code;
+    src: url(Fonts/Bitstream-Vera-Sans-Mono/VeraMono.ttf);
+}
+
+@font-face {
+    font-family: apple;
+    src: url(Fonts/SFMonoMedium.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    /* removes extra space and margin i.e. removes the border */
+}
+
+.sidebar {
+    font-family: 'google';
+    background-color: steelblue;
+    /* width: 26vw; */
+    /** Viewport = the browser window size. If the viewport is 50cm wide, 1vw = 0.5cm.
+                        vw	Relative to 1% of the width of the viewport,  vh	Relative to 1% of the height of the viewport**/
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav {
+    padding: 30px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    /* removes bullet points*/
+    font-size: 30px;
+    padding: 36px 9px 55px;
+}
+
+.sidebar nav a {
+    text-decoration: none; /* removes the underline for the hyperlink*/
+    color: black;
+}
+
+.main {
+    font-family: 'apple';
+    /* background-color: yellow; */
+    width: 88vw;
+}
+
+.container {
+    display: flex;
+    /*will arrange sidebar tag and nav tag side by side */
+}
+
+.infoContainer {
+    /* background-color: rgb(182, 221, 45); */
+    margin: 120px auto;
+    width: 64vw;
+    height: 44vh;
+    display: flex;
+    justify-content: space-around;
+    /*The justify-content property aligns the flexible container's items 
+                                    when the items do not use all available space on the main-axis (horizontally)*/
+
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello {
+    font-size: 60px;
+}
+
+.name {
+    font-size: 56px;
+    font-weight: bold;
+
+}
+
+.about {
+    font-size: 30px;
+    padding: 10px 0px;
+
+}
+
+.aboutmore {
+    font-size: 18px;
+    padding: 10px 0px;
+}
+
+.button button {
+    padding: 6px 8px;
+    border-radius: 14px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0px 4px;
+    cursor: pointer; /*cursor property specifies the mouse cursor to be displayed when pointing over an element.*/
+
+}
+
+.button button:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+
+
+.devPic img {
+    /*width: 292px;*/
+    height: 44vh;
+}
+
+.hiImg{
+    width: 52px;
+    margin-left: -30px;
+    margin-right: -14px;
+}
+
+.contactform h1{
+    text-align: center;
+    
+}
+
+.contactform{
+    padding: 0px 28px;
+    padding-top: 38px;
+}
+
+.contactform form{
+    padding: 34px;
+}
+
+
+
+.contactform form div{
+    padding: 10px;
+}
+
+#emailHelp{
+    font-size: 13px;
+    margin: 0px -6px;
+    color:gray;
+}
+
+.contactform form button{
+    padding: 6px 8px;
+    border-radius: 14px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0px 4px;
+    cursor: pointer;
+
+}
+
+.contactform form button:hover{
+    background-color: white;
+    color: dodgerblue;
+
+}
+
+.mb-3 input{
+    display: flex;
+    flex-direction: column;
+    width: 24vw;
+    border-radius: 12px;
+    font-size: 16px;
+    padding: 3px;
+}
+
+.mb-3_form-check {
+    display: flex;
+    padding: 12px;
+
+}
+
+.projectsContainer {
+    padding:  0px 25px;
+
+}
+
+.projectsContainer h1{
+    margin:24px
+}
+
+.projectItems h2{
+    padding: 12px 36px;
+}
+
+.projectItems h4{
+    margin-left: 34px;
+    color: lightslategrey;
+}
+
+.projectItems ul{
+    margin: 15px 54px;
+
+}
+
+.projectItems ul li{
+    margin: 12px 0px;
+}
+
+.introContainer{
+    padding:  0px 25px;
+
+}
+
+.introContainer h1{
+    margin:24px
+
+}
+
+.introContainer p{
+    padding: 0px 28px;
+    font-size: 20px;
+
+}
+
+.edu{
+    padding: 28px 20px;
+
+}
+
+.sidebarGo{
+        transform: translate(-433px,0px);
+        position: absolute;
+
+}
+
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.cross{
+    margin-left: 212px;
+}
+
+@media (max-width:875px) {
+    *{
+        /* background-color: red; */
+    }
+
+    /* .sidebar{
+        transform: translate(-433px,0px);
+        position: absolute;
+    } */
+    
+}
