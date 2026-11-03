@@ -1,52 +1,188 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nikhil Tembhe - Passionate Android Developer</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#19172b">
+  <meta name="description" content="Nikhil Tembhe is a Full Stack Developer with 4.5+ years of experience building enterprise applications with C#, .NET, Angular, React, SQL Server and Azure.">
+  <meta property="og:title" content="Nikhil Tembhe | Full Stack Developer">
+  <meta property="og:description" content="I build scalable applications, dependable APIs and cloud integrations.">
+  <meta property="og:type" content="website">
+  <title>Nikhil Tembhe | Full Stack Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <div class="container"> <!-- this container contain our site-->
-
-        <div class = "sidebar sidebarGo">
-            <nav>
-                <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/intro.html">My Intro</a></li>
-                    <li><a href="/personal_projects.html">Personal Project</a></li>
-                    <!-- <li><a href="/cv.html">CV</a></li> -->
-                    <li><a href="/contact.html">Contact Me</a></li>
-                </ul>
-            </nav>
-        </div>
-        
-        <div class = "main">
-            <div class="hamburger">
-                <img src="/images/png-clipart-hamburger-button-computer-icons-menu-menu-black-bar.png" alt="" class="ham" width="50px">
-                <img src="/images/x_106506.png" alt="" class="cross" width="32px">
-            </div>
-            <div class="infoContainer">
-                <div class="devInfo">
-                    <div class="hello">Hi <img src="/images/Hi.gif" class="hiImg"> I'm </div>
-                    <div class="name">Nikhil Tembhe </div>
-                    <div class="about">Trainee Developer(Birlasoft), Mobile Developer Enthusiast </div>
-                    <!-- <div class="aboutmore">A keen and enthusiastic learner aiming to make the most of my opportunities 
-                        . A complete team player and a person who adheres to his principles and acts responsibly.</div> -->
-                    <div class="button">
-                        <a href="/Nikhil'sResumePCE.pdf" target="_blank"> <button>Download CV</button></a>
-                        <a href="/contact.html"><button>Contact Me</button></a>
-                    </div>
-                </div>
-                <div class="devPic"> <img src="./images/man-shows-gesture-great-idea_10045-637.png" alt="developer photo"></div>
-            </div>
-            
-
-        </div>
-
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="scroll-progress" aria-hidden="true"><span></span></div>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="#home" aria-label="Nikhil Tembhe home"><span class="brand-open">&lt;</span><span class="brand-name">Nikhil</span><span class="brand-close"> /&gt;</span></a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        <a class="nav-resume" href="assets/resume.pdf" target="_blank" rel="noopener">Resume <span aria-hidden="true">↗</span></a>
+      </nav>
     </div>
-<script src="script.js"></script>
-<br></br>
+  </header>
+
+  <main id="main">
+    <section class="hero section-shell" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">Hi, my name is</p>
+        <h1>Nikhil Tembhe<span class="accent">.</span></h1>
+        <p class="hero-tagline">
+          <span class="tagline-prefix">I </span><span class="typewriter" id="typewriter" aria-hidden="true"></span><span class="type-cursor" aria-hidden="true">|</span>
+          <span class="sr-only">I build scalable software, build reliable APIs, and solve real-world problems.</span>
+        </p>
+        <p class="hero-copy">Full Stack Developer with <span class="accent-text">4.5+ years of experience</span> building scalable enterprise applications using C#, .NET, Angular, React, SQL Server and Azure. I enjoy turning complex requirements into reliable software.</p>
+        <div class="social-links" aria-label="Social and contact links">
+          <a href="mailto:nikhiltembhe@gmail.com" aria-label="Send email" title="Email">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 5.5h17A1.5 1.5 0 0 1 22 7v10a1.5 1.5 0 0 1-1.5 1.5h-17A1.5 1.5 0 0 1 2 17V7a1.5 1.5 0 0 1 1.5-1.5Zm.2 2 8.3 6.1 8.3-6.1H3.7Zm16.3 9.5V9.4L12.6 15a1 1 0 0 1-1.2 0L4 9.4V17h16Z"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/nikhiltembhe/" target="_blank" rel="noopener" aria-label="LinkedIn profile" title="LinkedIn">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5.2 3.5a2.2 2.2 0 1 1 0 4.4 2.2 2.2 0 0 1 0-4.4ZM3.3 9.5h3.8v11.2H3.3V9.5Zm6.1 0H13v1.5h.1c.5-.9 1.7-1.9 3.5-1.9 3.8 0 4.5 2.5 4.5 5.7v5.9h-3.8v-5.2c0-1.2 0-2.8-1.8-2.8s-2.1 1.3-2.1 2.7v5.3H9.4V9.5Z"/></svg>
+          </a>
+        </div>
+        <a class="scroll-cue" href="#about" aria-label="Scroll to about section"><span></span></a>
+      </div>
+    </section>
+
+    <section class="content-section" id="about">
+      <div class="section-shell">
+        <div class="section-heading reveal"><span class="section-index">01 / ABOUT</span><h2>A little about me<span class="accent">.</span></h2></div>
+        <div class="about-grid">
+          <div class="about-copy reveal">
+            <p class="large-copy">I build software that makes complex workflows feel simple.</p>
+            <p>I'm a Full Stack Developer experienced in developing enterprise applications, RESTful APIs, cloud-based solutions and system integrations. My work spans Tax &amp; Compliance, Shipping &amp; Logistics, and Manufacturing.</p>
+            <p>I enjoy solving backend and frontend problems, improving application performance, and collaborating with cross-functional teams to deliver production-ready features in Agile/Scrum environments.</p>
+            <a class="text-link" href="assets/resume.pdf" target="_blank" rel="noopener">View my resume <span aria-hidden="true">↗</span></a>
+          </div>
+          <aside class="quick-facts reveal" aria-label="Professional overview">
+            <div class="fact"><strong>4.5+</strong><span>Years of experience</span></div>
+            <div class="fact"><strong>04</strong><span>Featured projects</span></div>
+            <div class="fact"><strong>03</strong><span>Industry domains</span></div>
+            <div class="fact"><strong>9.12</strong><span>Engineering CGPA / 10</span></div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section" id="skills">
+      <div class="section-shell">
+        <div class="section-heading reveal"><span class="section-index">02 / TOOLKIT</span><h2>Things I work with<span class="accent">.</span></h2></div>
+        <p class="section-intro reveal">A selection of the languages, frameworks and tools listed in my resume.</p>
+        <div class="skills-grid">
+          <article class="skill-card reveal"><span class="skill-number">01</span><h3>Programming</h3><div class="tag-list"><span>C#</span><span>Java</span><span>Python</span></div></article>
+          <article class="skill-card reveal"><span class="skill-number">02</span><h3>Frameworks &amp; Libraries</h3><div class="tag-list"><span>.NET</span><span>.NET Core</span><span>ASP.NET Core</span><span>Entity Framework Core</span><span>Angular</span><span>React</span><span>jQuery</span><span>Node.js</span><span>SignalR</span></div></article>
+          <article class="skill-card reveal"><span class="skill-number">03</span><h3>Frontend</h3><div class="tag-list"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>TypeScript</span></div></article>
+          <article class="skill-card reveal"><span class="skill-number">04</span><h3>Databases</h3><div class="tag-list"><span>SQL Server</span><span>PostgreSQL</span></div></article>
+          <article class="skill-card reveal"><span class="skill-number">05</span><h3>Cloud &amp; Technology</h3><div class="tag-list"><span>Microsoft Azure</span><span>Azure Functions</span><span>Azure Blob Storage</span><span>Azure Service Bus</span><span>RESTful APIs</span><span>Redis Cache</span></div></article>
+          <article class="skill-card reveal"><span class="skill-number">06</span><h3>Tools &amp; Platforms</h3><div class="tag-list"><span>Visual Studio</span><span>VS Code</span><span>Postman</span><span>Docker</span><span>Kubernetes</span><span>Azure DevOps</span><span>TFS</span><span>Git</span><span>Figma</span><span>Jira</span><span>SSMS</span><span>SSIS</span><span>MCP</span><span>LLM</span><span>GenAI</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section" id="projects">
+      <div class="section-shell">
+        <div class="section-heading reveal"><span class="section-index">03 / SELECTED WORK</span><h2>Projects I've worked on<span class="accent">.</span></h2></div>
+        <p class="section-intro reveal">Enterprise applications and integrations from my professional experience.</p>
+        <div class="projects-list">
+          <article class="project-card reveal">
+            <div class="project-top"><span class="project-type">TAX &amp; COMPLIANCE</span><span class="project-date">Oct 2025 – Present</span></div>
+            <h3>MTD for Income Tax</h3>
+            <p class="project-context">Wolters Kluwer · UK tax-compliance platform</p>
+            <p>Developed features supporting UK tax-compliance workflows and integration with HMRC Government APIs. Built reusable and asynchronous integrations to connect external services with internal applications.</p>
+            <ul class="project-points">
+              <li>Created a reusable Node.js library using AAA authentication and REST APIs, reducing integration effort by <strong>60%</strong>.</li>
+              <li>Integrated Azure Functions and SignalR for asynchronous response handling and real-time updates, improving response handling efficiency by <strong>30%</strong>.</li>
+              <li>Moved file handling to Azure Blob Storage, achieving approximately <strong>40% faster</strong> file upload and retrieval.</li>
+              <li>Integrated Azure Service Bus for event-driven processing, improving background throughput by <strong>30%</strong>.</li>
+              <li>Applied Clean Architecture across API, Application, Domain and Infrastructure layers.</li>
+            </ul>
+            <div class="project-tags"><span>.NET</span><span>C#</span><span>Angular</span><span>SQL Server</span><span>Azure</span><span>Node.js</span><span>SignalR</span></div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-top"><span class="project-type">SHIPPING &amp; LOGISTICS</span><span class="project-date">Mar 2025 – Sep 2025</span></div>
+            <h3>MNR Portal</h3>
+            <p class="project-context">Container management platform</p>
+            <p>Migrated key features from legacy systems to Angular 18 and .NET Core, improving application performance, scalability and maintainability.</p>
+            <ul class="project-points">
+              <li>Delivered a modernized module with a reported <strong>60% improvement</strong> in performance, scalability and maintainability.</li>
+              <li>Integrated Azure Blob Storage for secure file upload and retrieval.</li>
+              <li>Used FluentValidation for server-side validation and Redis Cache to reduce average API response times by <strong>50%</strong>.</li>
+            </ul>
+            <div class="project-tags"><span>.NET Core</span><span>C#</span><span>Angular 18</span><span>SQL Server</span><span>Azure Blob Storage</span><span>Redis</span></div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-top"><span class="project-type">MANUFACTURING</span><span class="project-date">Apr 2023 – Feb 2025</span></div>
+            <h3>Packing Application</h3>
+            <p class="project-context">Assembly-line product packaging</p>
+            <p>Developed and maintained an application that manages product packaging on the assembly line, supporting accuracy and efficiency through the final packing stage.</p>
+            <ul class="project-points">
+              <li>Designed REST APIs for QR Code Management, improving parts scanning efficiency by <strong>70%</strong>.</li>
+              <li>Built SSIS data integration packages using Derived Columns, Expressions and Lookups for reliable data transformation.</li>
+            </ul>
+            <div class="project-tags"><span>.NET</span><span>C#</span><span>SQL Server</span><span>REST APIs</span><span>SSIS</span></div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-top"><span class="project-type">PUBLIC SAFETY</span><span class="project-date">Oct 2022 – Apr 2023</span></div>
+            <h3>Digital Police System</h3>
+            <p class="project-context">Complaint management platform</p>
+            <p>Developed a complaint management platform where users can submit and track complaints by region and category, while police officers manage complaints assigned to their stations.</p>
+            <ul class="project-points">
+              <li>Implemented role-based access control and authentication using ASP.NET Core Identity.</li>
+              <li>Enabled complaint tracking, comments and withdrawal for users, with approve, reject and defer workflows for officers.</li>
+              <li>Used Entity Framework Core and SQL Server for data access and persistence.</li>
+            </ul>
+            <div class="project-tags"><span>ASP.NET Core</span><span>EF Core</span><span>SQL Server</span><span>ASP.NET Identity</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section" id="experience">
+      <div class="section-shell">
+        <div class="section-heading reveal"><span class="section-index">04 / EXPERIENCE</span><h2>Where I've worked<span class="accent">.</span></h2></div>
+        <div class="experience-list">
+          <article class="experience-item reveal"><div class="experience-period">Oct 2025 — Present</div><div class="experience-body"><h3>Product Software Engineer</h3><p class="company">Wolters Kluwer <span>· Pune</span></p><p>Developed and maintained enterprise applications using C#, .NET, Angular and Azure. Designed REST APIs and third-party integrations, implemented secure validation and exception handling, and integrated Azure services with SignalR for decoupled asynchronous communication and real-time updates. Contributed to code reviews, troubleshooting and Agile delivery.</p><div class="project-tags"><span>.NET</span><span>Angular</span><span>React</span><span>Azure</span><span>SignalR</span></div></div></article>
+          <article class="experience-item reveal"><div class="experience-period">Mar 2025 — Sep 2025</div><div class="experience-body"><h3>Senior Full Stack Developer</h3><p class="company">NeoSOFT <span>· Mumbai</span></p><p>Engineered scalable backend systems using .NET Core and C#, increasing throughput and reducing API response latency by 60%. Designed optimized SQL Server schemas, handled database migrations, applied OOP and clean-code practices, and built responsive Angular components integrated with REST APIs.</p><div class="project-tags"><span>.NET Core</span><span>C#</span><span>Angular</span><span>SQL Server</span></div></div></article>
+          <article class="experience-item reveal"><div class="experience-period">Feb 2022 — Feb 2025</div><div class="experience-body"><h3>Full Stack Developer</h3><p class="company">Birlasoft <span>· Pune</span></p><p>Developed RESTful APIs using C# and .NET Core, implemented CQRS to separate read and write operations, and managed SQL Server data. Worked with frontend teams and stakeholders to deliver responsive, business-focused application features.</p><div class="project-tags"><span>.NET Core</span><span>C#</span><span>React</span><span>jQuery</span><span>SQL Server</span></div></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section" id="education">
+      <div class="section-shell">
+        <div class="section-heading reveal"><span class="section-index">05 / EDUCATION &amp; RECOGNITION</span><h2>Beyond the code<span class="accent">.</span></h2></div>
+        <div class="education-grid">
+          <article class="education-card reveal"><span class="card-kicker">2018 — 2022</span><h3>Bachelor of Engineering</h3><p>Computer Science and Engineering</p><p class="school">Priyadarshini College of Engineering, Nagpur</p><strong class="grade">9.12 <small>/ 10 CGPA</small></strong></article>
+          <article class="education-card reveal"><span class="card-kicker">CERTIFICATES &amp; ACHIEVEMENTS</span><div class="award"><strong>Budding Star</strong><span>Birlasoft · Nov 2023</span></div><div class="award"><strong>Rising Star</strong><span>Birlasoft · Apr 2022</span></div><div class="award"><strong>Web Development</strong><span>Dell Technologies · Apr 2021</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="section-shell contact-inner reveal">
+        <span class="section-index">06 / GET IN TOUCH</span>
+        <p class="eyebrow">Have a role or project in mind?</p>
+        <h2>Let's build something<br><span class="accent">meaningful.</span></h2>
+        <p class="contact-copy">I'm open to connecting about software engineering opportunities and interesting problems to solve.</p>
+        <a class="button button-primary contact-button" href="mailto:nikhiltembhe@gmail.com">Say Hello <span aria-hidden="true">↗</span></a>
+        <div class="contact-details"><a href="mailto:nikhiltembhe@gmail.com">nikhiltembhe@gmail.com</a><a href="tel:+918669893558">+91 86698 93558</a><a href="https://www.linkedin.com/in/nikhiltembhe/" target="_blank" rel="noopener">LinkedIn ↗</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="section-shell footer-inner"><span>Designed &amp; built by Nikhil Tembhe</span><span>© <span id="year">2026</span> · All rights reserved</span><a href="#home">Back to top ↑</a></div></footer>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
